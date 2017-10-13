@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="//yastatic.net/market-skubi/_/LKcl4spoX9Ks3afwabmo2OOgdoc.css">
+    <script id="//an.yandex.ru/resource/context_static_r_3061.js" src="https://an.yandex.ru/resource/context_static_r_3061.js"></script>
+    <script type="text/javascript" src="//an.yandex.ru/system/context.js" async=""></script>
+    <script src="//yastatic.net/jquery/1.8.2/jquery.min.js" defer=""></script>
+    <script src="//yastatic.net/market-skubi/_/zDUM68JrRMjT0Bb9rQXfoJ1TYyk.js" defer=""></script>
+    <title>Каталог товаров</title>
+</head>
+<body>
+<div class="header2__main">
+    <div class="header2__main-content">
+        <div class="header2__logo">
+            <a class="logo logo_type_link logo_part_yandex" href="{% url 'catalog:catalog' %}" tabindex="-1">
+                <span class="logo__text">Яндекс</span>
+            </a>
+            <a class="logo logo_type_link logo_part_market" href="{% url 'catalog:catalog' %}" tabindex="-1">
+                <span class="logo__text">Маркет</span>
+            </a>
+        </div>
+        <div class="header2__middle">
+            <div class="header2__middle-wrap">
+                <div class="header2__left" itemtype="http://schema.org/WebSite" itemscope="">
+                    <form class="header2__search search2 search2_type_market suggest2-form suggest2-counter suggest2-counter_type_market suggest2-form_stats_yes i-bem search2_js_inited suggest2-counter_js_inited" action="{% url 'catalog:search' %}" itemprop="potentialAction">
+                        <span class="search2__input">
+                            <span class="suggest2-form__node">
+                                <span id="market-search" class="suggest2-form__input input input_size_l input_theme_normal input_pin_round-clear input_focus_thin i-bem input_js_inited">
+                                    <span class="input__box">
+                                        <input id="header-search" class="input__control" name="text" aria-labelledby="header-search header-search-label" maxlength="400" autocomplete="off" value="" placeholder="">
+                                        <span class="input__clear" unselectable="on"></span>
+                                    </span>
+                                </span>
+                            </span>
+                        </span>
+                        <span class="search2__button">
+                            <button role="button" type="submit" class="button2 button2_size_ml button2_type_submit button2_pin_brick-round i-bem button2_theme_gray button2_js_inited">
+                                <span class="button2__text">Найти</span>
+                            </button>
+                        </span>
+                    </form>
+                </div>
+                <div class="header2__right">
+                    <div class="header2-menu header2-menu_loading_yes i-bem header2-menu_js_inited" data-bem="{&quot;header2-menu&quot;:&quot;&quot;}">
+                        <span class="link header2-menu__item header2-menu__item_type_region header2-region region-form-opener i-bem n-region-notification-opener n-region-notification-opener_js_inited" data-bem="{&quot;region-form-opener&quot;:{&quot;region&quot;:{&quot;id&quot;:2,&quot;source&quot;:60,&quot;name&quot;:&quot;Санкт-Петербург&quot;,&quot;detectedName&quot;:&quot;Москва&quot;,&quot;tld&quot;:&quot;ru&quot;,&quot;country&quot;:225,&quot;isBySettings&quot;:true,&quot;isInternal&quot;:false,&quot;regSet&quot;:false,&quot;linguistics&quot;:{&quot;nominative&quot;:&quot;Санкт-Петербург&quot;,&quot;genitive&quot;:&quot;Санкт-Петербурга&quot;,&quot;dative&quot;:&quot;Санкт-Петербургу&quot;,&quot;prepositional&quot;:&quot;Санкт-Петербурге&quot;,&quot;preposition&quot;:&quot;в&quot;,&quot;locative&quot;:&quot;&quot;,&quot;directional&quot;:&quot;&quot;,&quot;ablative&quot;:&quot;&quot;,&quot;accusative&quot;:&quot;Санкт-Петербург&quot;,&quot;instrumental&quot;:&quot;Санкт-Петербургом&quot;}}},&quot;n-region-notification-opener&quot;:{&quot;region&quot;:{&quot;id&quot;:2,&quot;source&quot;:60,&quot;name&quot;:&quot;Санкт-Петербург&quot;,&quot;detectedName&quot;:&quot;Москва&quot;,&quot;tld&quot;:&quot;ru&quot;,&quot;country&quot;:225,&quot;isBySettings&quot;:true,&quot;isInternal&quot;:false,&quot;regSet&quot;:false,&quot;linguistics&quot;:{&quot;nominative&quot;:&quot;Санкт-Петербург&quot;,&quot;genitive&quot;:&quot;Санкт-Петербурга&quot;,&quot;dative&quot;:&quot;Санкт-Петербургу&quot;,&quot;prepositional&quot;:&quot;Санкт-Петербурге&quot;,&quot;preposition&quot;:&quot;в&quot;,&quot;locative&quot;:&quot;&quot;,&quot;directional&quot;:&quot;&quot;,&quot;ablative&quot;:&quot;&quot;,&quot;accusative&quot;:&quot;Санкт-Петербург&quot;,&quot;instrumental&quot;:&quot;Санкт-Петербургом&quot;}}}}">
+                            <span class="header2-menu__icon-wrap">
+                                <span class="header2-menu__icon header2-menu__icon_type_region"></span>
+                            </span>
+                            <span class="header2-menu__text">Санкт-Петербург</span>
+                        </span>
+                        <a class="link header2-menu__item header2-menu__item_type_wishlist" href="/my/wishlist?track=head">
+                            <span class="header2-menu__icon-wrap">
+                                <span class="header2-menu__count personal-counter personal-counter_provider_wishlist i-bem personal-counter_js_inited" data-bem="{&quot;personal-counter&quot;:{&quot;showDot&quot;:true},&quot;header2-menu__count&quot;:{&quot;type&quot;:&quot;wishlist&quot;}}"></span>
+                                <span class="header2-menu__icon header2-menu__icon_type_wishlist header2-menu__icon_hint_yes hint i-bem" data-title="Отложенные" data-bem="{&quot;hint&quot;:{&quot;to&quot;:&quot;bottom&quot;}}"></span>
+                                <span class="header2-menu__icon header2-menu__icon_type_wishlist"></span>
+                            </span>
+                            <span class="header2-menu__text">Отложенные</span>
+                        </a>
+                        <a class="link header2-menu__item header2-menu__item_type_compare" href="/compare?track=head">
+                            <span class="header2-menu__icon-wrap">
+                                <span class="header2-menu__count personal-counter personal-counter_provider_comparison i-bem personal-counter_js_inited" data-bem="{&quot;personal-counter&quot;:{&quot;showDot&quot;:true,&quot;comparisonCount&quot;:0},&quot;header2-menu__count&quot;:{&quot;type&quot;:&quot;compare&quot;}}"></span>
+                                <span class="header2-menu__icon header2-menu__icon_hint_yes header2-menu__icon_type_compare hint i-bem" data-title="Сравнение" data-bem="{&quot;hint&quot;:{&quot;to&quot;:&quot;bottom&quot;}}"></span>
+                                <span class="header2-menu__icon header2-menu__icon_type_compare"></span>
+                            </span>
+                            <span class="header2-menu__text">Сравнение</span>
+                        </a>
+                        <a class="link header2-menu__item header2-menu__item_type_cart personal-basket personal-basket_type_header i-bem personal-basket_js_inited" href="/cart?track=head" data-bem="{&quot;personal-basket&quot;:&quot;&quot;}">
+                            <span class="header2-menu__icon-wrap">
+                                <span class="header2-menu__count personal-counter personal-counter_provider_cart i-bem personal-counter_js_inited" data-bem="{&quot;personal-counter&quot;:&quot;&quot;,&quot;header2-menu__count&quot;:{&quot;type&quot;:&quot;cart&quot;}}"></span>
+                                <span class="header2-menu__icon header2-menu__icon_type_cart"></span>
+                            </span>
+                            <span class="header2-menu__text">Корзина</span>
+                        </a>
+                    </div>
+                    <div class="header2__nav">
+                        <div class="header2-nav i-bem header2-nav_js_inited" data-bem="{&quot;header2-nav&quot;:{&quot;user&quot;:{&quot;isAuth&quot;:false,&quot;login&quot;:&quot;&quot;,&quot;name&quot;:null,&quot;UID&quot;:&quot;&quot;,&quot;yandexuid&quot;:&quot;9660057701505765303&quot;,&quot;region&quot;:{&quot;id&quot;:2,&quot;source&quot;:60,&quot;name&quot;:&quot;Санкт-Петербург&quot;,&quot;detectedName&quot;:&quot;Москва&quot;,&quot;tld&quot;:&quot;ru&quot;,&quot;country&quot;:225,&quot;isBySettings&quot;:true,&quot;isInternal&quot;:false,&quot;regSet&quot;:false,&quot;linguistics&quot;:{&quot;nominative&quot;:&quot;Санкт-Петербург&quot;,&quot;genitive&quot;:&quot;Санкт-Петербурга&quot;,&quot;dative&quot;:&quot;Санкт-Петербургу&quot;,&quot;prepositional&quot;:&quot;Санкт-Петербурге&quot;,&quot;preposition&quot;:&quot;в&quot;,&quot;locative&quot;:&quot;&quot;,&quot;directional&quot;:&quot;&quot;,&quot;ablative&quot;:&quot;&quot;,&quot;accusative&quot;:&quot;Санкт-Петербург&quot;,&quot;instrumental&quot;:&quot;Санкт-Петербургом&quot;}},&quot;comparisonCount&quot;:0},&quot;domain&quot;:&quot;ru&quot;}}">
+                            <div class="header2-nav__user-placeholder">
+                                <div class="header2-user user i-bem">
+                                    <a class="button button2 button2_pseudo_yes button2_size_ml button2_theme_gray user__login" href="https://passport.yandex.ru/auth?origin=market_desktop_header&amp;retpath=https://market.yandex.ru" role="button">
+                                        <span class="button2__text">
+                                            <span class="user__enter-label">Войти</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="header2-nav__content">
+                                <div class="header2-nav__user">
+                                    <div class="header2-user user i-bem">
+                                        <a class="button button2 button2_pseudo_yes button2_size_ml button2_theme_gray user__login" href="https://passport.yandex.ru/auth?origin=market_desktop_header&amp;retpath=https://market.yandex.ru" role="button">
+                                            <span class="button2__text">
+                                                <span class="user__enter-label">Войти</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="header2-nav__user-menu"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="layout layout_type_maya">
+    <div class="n-filter-panel-dropdown i-bem n-filter-panel-dropdown_js_inited">
+        <div class="n-filter-panel-dropdown__placeholder"></div>
+        <div class="n-filter-panel-dropdown__main"></div>
+        <div class="layout layout_type_search i-bem">
+            <div class="layout__col layout__col_search-results_normal i-bem">
+                <div class="serp-empty island i-bem serp-empty_state_hidden serp-empty_js_inited">
+                    <div class="serp-empty__wrapper">
+                        <div class="title">Нет подходящих товаров</div>
+                        <div class="serp-empty__subtitle">попробуйте смягчить условия поиска</div>
+                        <button class="button button_action_n-filter-reset button_size_m button_pseudo_yes button_theme_pseudo i-bem" role="button" type="button">
+                            <span class="button__text">Сбросить фильтры</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="n-filter-applied-results metrika b-zone i-bem n-filter-applied-results_js_inited b-zone_js_inited">
+                    <div class="n-filter-applied-results__content preloadable i-bem preloadable_js_inited">
+                            <div class="n-snippet-list n-snippet-list_type_grid snippet-list_size_3 metrika i-bem snippet-list_js_inited metrika_js_inited">
+                                {% for product in products %}
+                                <div class="n-snippet-cell2 i-bem n-snippet-cell2_type_product n-snippet-cell2_js_inited">
+                                <div class="n-snippet-cell2__stickers"></div>
+                                <a class="n-snippet-cell2__image link i-bem link_js_inited" href="{% url 'catalog:detail' product.id %}" title="{{ product.title }}">
+                                    <img class="image" src="{{ product.image1.url }}" title="{{ product.title }}" alt="{{ product.title }}" srcset="//avatars.mds.yandex.net/get-mpic/195452/img_id4783826773129378920/9hq 1.5x">
+                                </a>
+                                <div class="n-snippet-cell2__header">
+                                    <div class="n-snippet-cell2__title">
+                                        <a class="link n-link_theme_blue" href="{% url 'catalog:detail' product.id %}">{{ product.title }}</a>
+                                    </div>
+                                </div>
+                                <div class="n-snippet-cell2__body">
+                                    <div class="n-snippet-cell2__price">
+                                        <div class="n-snippet-cell2__main-price">
+                                            <a class="link n-smart-link i-bem" href="{% url 'catalog:detail' product.id %}">
+                                                <div class="price">{{ product.price }} ₽</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
